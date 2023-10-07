@@ -5,3 +5,106 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #2081c3;
+    height: 60px;
+}
+
+nav a {
+
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+#home {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+#home img {
+    width: 60%;
+    margin-top: 30px;
+}
+
+#home button {
+    width: 40%;
+    margin-top: 30px;
+    background-color: #2081c3;
+    padding: 10px 20px;
+    border-radius: 8px;
+    
+}
+
+#home button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#home div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#random {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#random img {
+    width: 5%;
+    margin-right: 40px;
+}
+
+
+#randomInfo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#beers {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#beers div {
+    width: 30%;
+}
+
+#beers img {
+    width: 10%;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+}
+
+#card div {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}

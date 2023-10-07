@@ -1,0 +1,11 @@
+<div id="beers">
+
+  {{#each this}}
+    <div id="card">
+      <img src="{{image_url}}" alt="{{name}} Image">
+      
+      {{> beerpartials }}
+    </div>
+  {{/each}}
+
+</div>
